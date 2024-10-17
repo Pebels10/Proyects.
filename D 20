@@ -1,0 +1,37 @@
+# DADO DE ROL D20:
+
+# Primera parte: Se designa un programilla para saber si quieres tirar el dado o no. Una especie de START. 
+
+while True: #Es un bucle para que te siga preguntando lo mismo hasta que se cumpla una condición que lo rompa. 
+
+  start = input('Quieres tirar el dado? (si/no) ')
+  afirmativo = ('si')
+
+  if start == afirmativo:
+    print('Suerte!')
+    break #Esto hace que salga del bucle infinito.
+
+  else:
+    print( 'Sigue maquinando!!')
+
+# Segunda parte: Es el dado en sí. No entiendo muy bien ni el funcionamiento de import random ni el deranmom.randint.
+
+import random
+
+advantage = int(input('Qué ventaja tienes? '))
+
+num = random.randint(1, 20)  # Generates a random number that's either 0 or 1
+
+if num + advantage >= 10 and num != 20 and num != 1:
+  print('Acierto!')
+  print(num , '+' , advantage , '=' , num + advantage)
+if num + advantage < 10 and num != 20 and num != 1:
+  print('Fallo!')
+  print(num , '+' , advantage , '=' , num + advantage)
+if num == 1:
+  print('Pifia...')
+  print(num , '+' , advantage , '=' , num + advantage )
+if num == 20:
+  print('Crítico!')
+  print(num , '+' , advantage , '=' , num + advantage)
+
