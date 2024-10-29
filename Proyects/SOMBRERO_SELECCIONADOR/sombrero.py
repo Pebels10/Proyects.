@@ -80,3 +80,7 @@ print('Ravenclaw = ', r1 + r2 + r3)
 print('Hufflepuff = ', h1 + h2 + h3)
 print('Slytherin = ', s1 + s2 + s3)
 
+# HAY PROBLEMAS, UNO QUE SE PUEDE HACER MUCHO MÁS SIMPLIFICADO, MIRAR EL CODEDEX, DOS, QUE COMO SOLO VALE UN PUNTO Y HAY POCAS PREGUNTAS 
+# ES DEMASIADO FACIL EMPATAR EN PUNTOS Y QUE NO DECLARE QUE SEAS DE NINGUNA CASA, QUE NO ROMPE EL PROGRAMA, PERO SE SALTA ESA PARTE. 
+
+#mejorar con funciones += y con la función max() para simplificar mucho el proceso. 
