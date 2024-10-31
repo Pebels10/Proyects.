@@ -36,10 +36,10 @@ while Bucle == 'Si':
         print('Fallo!')
         print(num , '+' , advantage , '=' , num + advantage)
 
-    bucle = input('¿Quieres volver a jugar? (Si/No): ')
-    if bucle == 'No':
-      break
+      Bucle = input('¿Quieres volver a jugar? (Si/No): ')
+      if Bucle == 'No':
+          print('Vuelve a jugar cuando quieras!') 
 
-print('Vuelve a jugar cuando quieras!')
+
 
 
